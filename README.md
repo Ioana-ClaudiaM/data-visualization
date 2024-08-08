@@ -12,7 +12,7 @@ This project is a web application designed for visualizing and analyzing economi
 
 
 ## Usage
-Select Indicators and Countries: Use the dropdown lists to choose the economic indicators and countries you want to analyze.
-Generate Charts: Choose the desired chart type and click "Generate Chart" to visualize the data.
-View Bubble Charts: Select the year and click "Show Bubble Chart" to analyze relationships between economic indicators.
-Consult the Table: Select the year for the table and click "Show Table" to view the indicators. Use the "Export Table to CSV" button to save the data.
+- **Select indicators and countries**: Use the dropdown lists to choose the economic indicators and countries you want to analyze.
+- **Generate charts**: Choose the desired chart type and click "Generate Chart" to visualize the data.
+- **View bubble charts**: Select the year and click "Show Bubble Chart" to analyze relationships between economic indicators.
+- **Consult the table**: Select the year for the table and click "Show Table" to view the indicators. Use the "Export Table to CSV" button to save the data.
