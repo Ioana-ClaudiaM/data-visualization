@@ -1,4 +1,4 @@
-Economic Data Visualization
+## Economic Data Visualization
 
 Description
 This project is a web application designed for visualizing and analyzing economic indicators for various countries and years. Users can select economic indicators such as GDP, population per capita, and life expectancy to generate visual charts (bar, pie, line) and bubble charts. Additionally, the application includes an interactive table that highlights economic performance by color-coding cells based on indicator values relative to the average.
