@@ -1,16 +1,17 @@
-##Vizualizare Date Economice
-##Descriere
-Acest proiect este o aplicație web destinată vizualizării și analizei indicatorilor economici pentru diverse țări și ani. Utilizatorii pot selecta indicatori economici precum PIB-ul, populația pe cap de locuitor și speranța de viață pentru a genera grafice vizuale (bare, circulare, liniare) și grafice cu bule. De asemenea, aplicația include un tabel interactiv ce evidențiază performanțele economice ale diferitelor țări prin colorarea celulelor în funcție de valoarea indicatorilor comparativ cu media.
+Economic Data Visualization
 
-##Funcționalități
-Selecție Indicatori și Țări: Permite utilizatorilor să aleagă indicatori economici și țări dintr-o listă derulantă.
-Generare Grafice: Oferă opțiuni pentru generarea de grafice cu bare, grafice circulare și grafice liniare în funcție de selecțiile făcute.
-Grafice cu Bule: Vizualizează relațiile complexe dintre mai mulți indicatori economici într-un grafic cu bule pentru anul selectat.
-Tabel Interactiv: Afișează indicatorii economici pentru diferite țări și ani, cu colorare dinamică a celulelor. Valorile care depășesc media indicatorului sunt evidențiate în nuanțe de roșu, iar valorile sub medie sunt colorate în verde.
-Export CSV: Permite exportarea tabelului de date în format CSV pentru analize suplimentare.
+Description
+This project is a web application designed for visualizing and analyzing economic indicators for various countries and years. Users can select economic indicators such as GDP, population per capita, and life expectancy to generate visual charts (bar, pie, line) and bubble charts. Additionally, the application includes an interactive table that highlights economic performance by color-coding cells based on indicator values relative to the average.
 
-##Utilizare
-Selectați Indicatorii și Țările: Utilizați listele derulante pentru a alege indicatorii economici și țările pe care doriți să le analizați.
-Generați Grafice: Alegeți tipul de grafic dorit și apăsați butonul "Generează graficul" pentru a vizualiza datele.
-Vizualizați Graficele cu Bule: Selectați anul dorit și apăsați "Afișează grafic cu bule" pentru a analiza relațiile dintre indicatorii economici.
-Consultați Tabelul: Alegeți anul pentru tabel și apăsați "Afișează Tabelul" pentru a vizualiza indicatorii. Folosiți butonul "Exportă tabelul în format CSV" pentru a salva datele.
+Features
+📊 Indicator and Country Selection: Allows users to choose economic indicators and countries from a dropdown list.
+📈 Chart Generation: Provides options to generate bar charts, pie charts, and line charts based on the selected indicators.
+💬 Bubble Charts: Visualizes complex relationships between multiple economic indicators in a bubble chart for the selected year.
+🗂️ Interactive Table: Displays economic indicators for various countries and years with dynamic cell color-coding. Values above the average indicator are highlighted in shades of red, while values below average are colored in green.
+💾 CSV Export: Enables exporting the data table to CSV format for further analysis.
+
+Usage
+Select Indicators and Countries: Use the dropdown lists to choose the economic indicators and countries you want to analyze.
+Generate Charts: Choose the desired chart type and click "Generate Chart" to visualize the data.
+View Bubble Charts: Select the year and click "Show Bubble Chart" to analyze relationships between economic indicators.
+Consult the Table: Select the year for the table and click "Show Table" to view the indicators. Use the "Export Table to CSV" button to save the data.
