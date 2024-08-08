@@ -1,0 +1,174 @@
+body {
+    font-family: 'Poppins';
+    background: linear-gradient(135deg, #93e4f7 0%, #e6e6e6 100%); 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.light-theme h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #8dbaeb, #0056b3); 
+    margin: 0;
+    border-bottom: 5px solid #0056b3;
+}
+
+.chart-container-interpretations h3{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #8dbaeb, #0056b3); 
+    margin: 0;
+    border-bottom: 5px solid #0056b3;
+}
+
+.tari ,.ani{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tari p{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+#menu label{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.form-control, .updateButton, .btnTabel, .btnExport{
+    border-radius: 8px; 
+    border: none; 
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    transition: all 0.3s ease; 
+}
+
+.form-control {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.updateButton, .btnTabel, .btnExport{
+    background: linear-gradient(135deg, #007bff, #0056b3); 
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.updateButton:hover,.btnTabel:hover ,.btnExport:hover{
+    background: linear-gradient(135deg, #0056b3, #003d79); 
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2); 
+}
+
+.select {
+    margin-bottom: 20px;
+}
+
+.chart-container ,.chart-container-interpretations{
+    border-radius: 10px; 
+    padding: 20px;
+    margin-top: 20px;
+    background: #b3c7f46c; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    width: fit-content;
+    display: none;
+}
+
+.chart-container:hover, .chart-container-interpretations:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3); 
+}
+
+.chart-container-interpretations{
+    font-family: 'Poppins';
+}
+
+.chart-container-interpretations span{
+    font-weight: bold;
+}
+
+.bubbleChartCanvasClass {
+    margin-top: 20px;
+    text-align: center;
+    width: fit-content;
+}
+
+.canvas {
+    border: 1px solid #ced4da;
+}
+
+#tooltip {
+    font-size: 12px;
+    background-color: #333;
+    color: #000000;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.bubbleChartCanvasClass {
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    justify-content: space-between; 
+    border-radius: 10px; 
+    padding: 20px;
+    background: #b3c7f46c;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    display: none;
+}
+
+.bubbleChartCanvasClass:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3); 
+}
+
+.legendContainer {
+    margin-top: 20px;
+    margin-left: 20px; 
+    float: right; 
+    width: 200px; 
+    background-color: #ffffff6f; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.select-bubble, .tabel{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;}
+
+.select-bubble p{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.tabel{
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.text-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 70px;
+    margin-top: -20px;
+}
+
